@@ -1,0 +1,21 @@
+# Go
+/bin/
+*.test
+*.out
+coverage.*
+
+# Python (uv)
+.venv/
+__pycache__/
+*.pyc
+
+# Bench / load output
+results/*.raw
+*.prof
+
+# Editors / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+.DS_Store
